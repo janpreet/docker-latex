@@ -1,4 +1,5 @@
-# docker-latex
+# docker-latex 
+![Docker Pulls](https://img.shields.io/docker/pulls/janpreet/latex)
 
 Lightweight `ubuntu:bionic + texlive-latex-base` container for processing .tex files
 
