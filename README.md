@@ -5,5 +5,5 @@ Lightweight `ubuntu:bionic + texlive-latex-base` container for processing .tex f
 ### How to use
 
 ```bash
-docker run --rm -i -v $(PWD):/data janpreet/docker-latex:latest pdflatex doc.tex
+docker run --rm -i -v $(PWD):/data janpreet/latex:latest pdflatex doc.tex
 ```
