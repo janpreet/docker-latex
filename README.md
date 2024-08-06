@@ -6,5 +6,5 @@ Lightweight `ubuntu:bionic + texlive-latex-base + pandoc` container for processi
 ### How to use
 
 ```bash
-docker run --rm -i -v $(PWD):/data janpreet/docker-latex:latest pdflatex doc.tex
+docker run --rm -i -v $(PWD):/data ghcr.io/janpreet/docker-latex:latest pdflatex doc.tex
 ```
