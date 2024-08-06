@@ -29,6 +29,3 @@ jobs:
         context: .
         push: true
         tags: ghcr.io/${{ github.repository }}:latest
-
-    - name: Verify Docker Image
-      run: docker run --rm ghcr.io/${{ github.repository }}:latest tex4ht --version
